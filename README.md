@@ -2,7 +2,7 @@
 
 Below are some Bug Report samples that I wrote while working on previous projects.
 
-## Login is not working properly
+### Login is not working properly
 
 **Priority & Severity** 
 P2-High
@@ -23,5 +23,5 @@ User is not logged and no error appears.
 **Test Data User:**
 radu & Pass: 123456
 
-## Cart does not display the items number
+### Cart does not display the items number
 
