@@ -92,5 +92,30 @@ The user should be able to change the quantity of an item in the cart by clickin
 The user should be allowed to change the quantity of an item in the cart.
 
 **Actual Result:**
-![STORE](https://user-images.githubusercontent.com/87574407/133063509-8d3dd0cd-2224-466e-a168-fd9dc503b67a.png)
 The shopping cart doesn’t have a quantity field and the user can’t update the quantity of an item. 
+
+![STORE](https://user-images.githubusercontent.com/87574407/133063509-8d3dd0cd-2224-466e-a168-fd9dc503b67a.png)
+
+## Customer Login does not have a password option
+
+**Priority and Severity**
+P1- Critical
+
+**Description:**
+The user should be able to access his account using his credentials username and pass.
+
+**Steps to Reproduce**
+1. Go to https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2. Click Customer Login
+3. Click  --Your Name-- field
+4. Select a user
+5. Click the Login button
+
+**Expected Result:*
+The user should be able to access his profile by inserting his name and password. 
+
+**Actual Result:*
+The user can access his profile using only his user without using a password.
+
+**Test DataUser:** Elena Uzun
+
