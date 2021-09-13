@@ -4,7 +4,7 @@ Below are some Bug Report samples that I wrote while working on previous project
 
 ## Login is not working properly
 
-**Priority & Severity** 
+**Priority & Severity:** 
 P2-High
 
 **Description:**
@@ -25,7 +25,7 @@ radu & Pass: 123456
 
 ## Cart does not display the items number
 
-**Priority & Severity**
+**Priority & Severity:**
 P2-High
 
 **Description:** 
@@ -46,7 +46,7 @@ radu & Pass: 123456
 
 ## Purchase functionality is not working properly 
 
-**Priority and Severity**
+**Priority and Severity:**
 P2 - High
 
 **Description:**
@@ -75,7 +75,7 @@ Place Order details : Name : Elena, Country : Romania, City: Brașov, Credit car
 
 ## Changing the quantity of an item in the cart is not possible
 
-**Priority and Severity**
+**Priority and Severity:**
 P4-Medium
 
 **Description:**
@@ -98,7 +98,7 @@ The shopping cart doesn’t have a quantity field and the user can’t update th
 
 ## Customer Login does not have a password option
 
-**Priority and Severity**
+**Priority and Severity:**
 P1- Critical
 
 **Description:**
@@ -117,6 +117,81 @@ The user should be able to access his profile by inserting his name and password
 **Actual Result:**
 The user can access his profile using only his user without using a password.
 
-**Test Data** 
+**Test Data:** 
 User:Elena Uzun
 
+## Broken link on the homepage
+
+**Priority and Severity:** 
+P5 Low
+
+**Description:**
+When the user is trying to acces the link  the page can not be displayed.
+
+**Steps to Reproduce**
+1. Go to https://www.primariatechirghiol.ro/
+2. Go to Info Turism
+3. Press the Cazare option
+4. Press Villa Bella
+
+**Expected Result:**
+When pressing  Villa Bella, the user is redirected to a web page where he can find the desired info about the accommodation. 
+
+**Actual Result:**
+When pressing Villa Bella, the user is redirected to a  web page where “The site can't be reached info is displayed.”
+
+## Custom 404 Error page is not created
+
+**Priority and Severity:**
+P4 Low
+
+**Description:**
+When accessing the web page with an incorrect or misspelled word a 404 Error Page is not created.
+
+**Steps to Reproduce**
+1. Go to www.primariatechirghiol.ro
+2. Insert a misspelled word in the URL - “jjjjjjjiiiii”
+3. Click Enter 
+
+**Expected Result:**
+When accessing the web page with an incorrect or misspelled word a Custom 404 Error Page should provide helpful content that encourages users to explore the site further.
+
+**Actual Result:**
+When accessing the web page with an incorrect or misspelled word a Custom 404 Error Page is not created. An “Error 404 - Not Found” message is displayed on the page.
+
+## No letters should be allowed inside the fields  
+
+**Priority and Severity:**
+P4 Normal
+
+**Description:**
+The user should be able to insert only numbers in the required fields. 
+
+**Steps to Reproduce**
+1. Go to https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/
+2. Type in numbers inside the required fields 
+
+**Expected Result:**
+The user should be able to insert only numbers in the required fields. 
+
+**Actual Result:**
+The user can insert numbers and the letter "e" inside the required fields.
+
+## Failed to load picture 
+
+**Priority and Severity:** 
+P5 Low
+
+**Description:**
+After accessing the app, the user should visualize a "No smoking" picture on the left side of the screen.
+
+**Steps to Reproduce**
+1. Go to https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/
+
+**Expected Result:**
+On the left side of the screen there should be a "No smoking" picture. 
+
+**Actual Result:**
+The "No smoking" picture is not displayed on the left side of the screen.
+
+![600px-No_smoking](https://user-images.githubusercontent.com/87574407/133067961-a68926cc-5c23-48f9-9d11-6aa39cb22eae.png)
