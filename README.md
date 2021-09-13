@@ -195,3 +195,127 @@ On the left side of the screen there should be a "No smoking" picture.
 The "No smoking" picture is not displayed on the left side of the screen.
 
 ![600px-No_smoking](https://user-images.githubusercontent.com/87574407/133067961-a68926cc-5c23-48f9-9d11-6aa39cb22eae.png)
+
+## The price does not use  currency symbol
+
+**Priority & Severity:**
+P3 High
+
+**Description:**
+The price should be indicated with a currency symbol.
+
+**Steps to Reproduce:**
+1. Go to https://juice-shop.herokuapp.com/#/
+
+**Expected Result:**
+Each product should have a price-tag indicated with a currency symbol.
+
+**Actual Result:**
+The price does not have a currency symbol.
+
+## Login error
+
+**Priority & Severity:**
+P1 Critical
+
+**Description:**
+When trying to login an error message appears.
+
+**Steps to Reproduce**
+1. Go to https://juice-shop.herokuapp.com/#/
+2. Click Account 
+3. Click Login 
+4, Use the correct credentials
+5. Click Log in button
+
+**Expected Result:**
+The user should be able to login and acces his profile page.
+
+**Actual Result:**
+The user can not login and an error message appears. 
+
+**Test Data:**
+Email: uzun_elena@yahoo.com
+Pass : eleuzun
+![login Juice Shop](https://user-images.githubusercontent.com/87574407/133068968-97a61c23-196b-4f5d-bd83-7eb2b8925681.png)
+
+
+## Forgot Password is not allowing user to reset his password
+
+**Priority & Severity:**
+P3 High
+
+**Description:**
+The user should be able to reset his password by filling the required fields,
+
+**Steps to Reproduce**
+1. Go to https://juice-shop.herokuapp.com/#/
+2. Click Account button
+3. Click Login button
+4. Click on Forgot your password?
+5. Fill in the required fields 
+
+**Expected Result:**
+The user should be able to insert the required information in each section.
+
+**Actual Result:**
+The user can fill in the required information only in the Email section. The user can not acces other sections.
+
+![forgot pass Juice Shop](https://user-images.githubusercontent.com/87574407/133068649-7b47138d-5447-4f8c-8ecf-00a486ecd2d4.png)
+
+## Value ''Clouds'' can not be translated 
+
+**Priority and Severity:**
+P4 Normal
+
+**Description:** 
+When changing the language in the API, the value ''Clouds'' can not be translated in the required language.
+
+**Steps to Reproduce**
+1. Go to https://identity.getpostman.com/login
+2. Sign in with the correct credentials
+3. Click on Workspaces
+4. Click on My Workspace 
+5. Click on Weather 
+6. Click on Get weather by city name
+7.  Change the value of lang 
+8. Check the response 
+
+**Expected Result:**
+The value ''Clouds'' is  translated in the required language.
+
+**Actual Result:** 
+The value ''Clouds'' is not translated in the required language.
+
+**Test Data:**
+Email or Username: uzun_elena@yahoo.com
+Pass: Brasov2014
+
+## A non-existing user ID can be deleted
+
+**Priority and Severity:**
+P5 Low
+
+**Description:**
+When trying to delete a non-existing user ID an error message should appear on the screen.
+
+**Steps to Reproduce**
+1. Go to https://identity.getpostman.com/login
+2. Sign in with the correct credentials
+3. Click on Workspaces
+4. Click on My Workspace 
+5. Click on Teste CRUD
+6. Click on Delete 
+
+**Expected Result:**
+When inserting a non-existing user ID and click on Send button, an error message should appear on the screen.
+
+**Actual Result:** 
+When inserting a non-existing user ID and click on Send button, a ''[{"success":"1"}]'' appears on the screen.
+
+**Test Data:**
+Email or Username: uzun_elena@yahoo.com
+Pass: Brasov2014
+
+![unexisting user](https://user-images.githubusercontent.com/87574407/133069826-7f71d371-4746-4a0f-8ef5-4d3cffe95a51.png)
+
