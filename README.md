@@ -13,3 +13,9 @@ When trying to login with the correct credentials, nothing happens. The user is 
 
 **Expected Results**
 User should be able to login and is taken to his profile page.
+
+**Actual Result**
+User is not logged and no error appears.
+
+**Test Data User:**
+radu & Pass: 123456
