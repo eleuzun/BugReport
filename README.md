@@ -14,10 +14,10 @@ When trying to login with the correct credentials, nothing happens. The user is 
 1. Go to www.website.com/login
 2. Add a correct user/pass
 
-**Expected Results:**
+**Expected Result:**
 User should be able to login and is taken to his profile page.
 
-**Actual Result**
+**Actual Result:**
 User is not logged and no error appears.
 
 **Test Data User:**
@@ -35,7 +35,7 @@ When trying to login with the correct credentials, nothing happens. The user is 
 1. Go to www.website.com/login
 2. Add a correct user/pass
 
-**Expected Results:**
+**Expected Result:**
 User should be able to login and is taken to his profile page.
 
 **Actual Result:**
