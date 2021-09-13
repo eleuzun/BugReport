@@ -111,11 +111,12 @@ The user should be able to access his account using his credentials username and
 4. Select a user
 5. Click the Login button
 
-**Expected Result:*
+**Expected Result:**
 The user should be able to access his profile by inserting his name and password. 
 
-**Actual Result:*
+**Actual Result:**
 The user can access his profile using only his user without using a password.
 
-**Test DataUser:** Elena Uzun
+**Test Data** 
+User:Elena Uzun
 
