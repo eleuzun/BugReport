@@ -72,3 +72,25 @@ The buyer is allowed to press the Purchase button endlessly and receives a Thank
 **Test Data:**
 
 Place Order details : Name : Elena, Country : Romania, City: Brașov, Credit card: 123456789, Month: 14, Year :2025
+
+## Changing the quantity of an item in the cart is not possible
+
+**Priority and Severity**
+P4-Medium
+
+**Description:**
+The user should be able to change the quantity of an item in the cart by clicking on the quantity field.
+
+**Steps to Reproduce**
+1. Go to www.demoblaze.com
+2. Press on Samsung galaxy s6
+3. Add to cart
+4. Press the OK button
+5. Click on Cart
+
+**Expected Result:**
+The user should be allowed to change the quantity of an item in the cart.
+
+**Actual Result:**
+![STORE](https://user-images.githubusercontent.com/87574407/133063509-8d3dd0cd-2224-466e-a168-fd9dc503b67a.png)
+The shopping cart doesn’t have a quantity field and the user can’t update the quantity of an item. 
