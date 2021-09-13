@@ -14,7 +14,7 @@ When trying to login with the correct credentials, nothing happens. The user is 
 1. Go to www.website.com/login
 2. Add a correct user/pass
 
-**Expected Results**
+**Expected Results:**
 User should be able to login and is taken to his profile page.
 
 **Actual Result**
@@ -35,10 +35,10 @@ When trying to login with the correct credentials, nothing happens. The user is 
 1. Go to www.website.com/login
 2. Add a correct user/pass
 
-**Expected Results**
+**Expected Results:**
 User should be able to login and is taken to his profile page.
 
-**Actual Result**
+**Actual Result:**
 User is not logged and no error appears.
 
 **Test Data User:**
@@ -63,12 +63,12 @@ When pressing the purchase button it endlessly displays the Thank you for your p
 8. Press the Purchase button
 9. Press again on Purchase button (don’t press OK)
 
-**Expected Result**
+**Expected Result:**
 The buyer should be allowed to press only one time the Purchase button and should be able to receive once a Thank you for your order message an ID number for  his order and an email with the purchase details (AWB, invoice, a tracking number and a tracking link) . 
 
-**Actual Result**
+**Actual Result:**
 The buyer is allowed to press the Purchase button endlessly and receives a Thank you for your order message with different ID numbers without an email and order details.
 
-**Test Data**
+**Test Data:**
 
 Place Order details : Name : Elena, Country : Romania, City: Brașov, Credit card: 123456789, Month: 14, Year :2025
