@@ -26,23 +26,27 @@ radu & Pass: 123456
 ## Cart does not display the items number
 
 **Priority & Severity:**
-P2-High
+P4-Normal
 
 **Description:** 
-When trying to login with the correct credentials, nothing happens. The user is not logged in and no error message is displayed.
+After adding an item in to the cart the user can't see how many items are inside the cart near the cart icon/navigation.
 
 **Steps to Reproduce**
-1. Go to www.website.com/login
-2. Add a correct user/pass
+1. Go to www.demoblaze.com
+2. Login with the correct credentials
+3. Access the first category Phones
+4. Click on Samsung galaxy s6
+5.Click Add to Cart button
+6. Click the Ok button
 
 **Expected Result:**
-User should be able to login and is taken to his profile page.
+User should be able to see that the item was added in the cart by visualizing a number near the cart.
 
 **Actual Result:**
-User is not logged and no error appears.
+The cart doesn't display the number of items inside it.
 
 **Test Data User:**
-radu & Pass: 123456
+User: eleuzun & Pass :123456
 
 ## Purchase functionality is not working properly 
 
